@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace _01._ComputerInventory.Migrations
 {
-    public partial class ComputerInventoryDataMachineContext : Migration
+    public partial class _01_ComputerInventoryDataMachineContext : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -10,8 +10,8 @@ using _01._ComputerInventory.Data;
 namespace _01._ComputerInventory.Migrations
 {
     [DbContext(typeof(MachineContext))]
-    [Migration("20181204233547_ComputerInventory.Data.MachineContext")]
-    partial class ComputerInventoryDataMachineContext
+    [Migration("20181205100936__01._ComputerInventory.Data.MachineContext")]
+    partial class _01_ComputerInventoryDataMachineContext
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

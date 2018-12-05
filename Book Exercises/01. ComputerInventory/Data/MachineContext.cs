@@ -17,7 +17,7 @@ namespace _01._ComputerInventory.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(@"Server=DESKTOP-5H5JRQ7;Database=BookEFCore;Trusted_Connection=false;User ID=Iko;Password=");
+                optionsBuilder.UseSqlServer(@"Server=DESKTOP-5H5JRQ7\SQLEXPRESS;Database=BookEFCore;Trusted_Connection=true;");
             }
         }
 
